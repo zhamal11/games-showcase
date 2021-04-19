@@ -4,6 +4,10 @@ import styled from 'styled-components';
 const SidebarComponent = styled.div`
   flex: 0 0 30%;
   padding: 10px;
+
+  @media (max-width: 767px) {
+    flex: 0 0 100%;
+  }
 `;
 
 const List = styled.li`

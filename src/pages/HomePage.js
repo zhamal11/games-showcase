@@ -2,14 +2,13 @@ import styled from 'styled-components';
 import {useEffect, useState} from 'react';
 import CardGame from '../components/CardGame';
 
-const Content = styled.div`
-  padding: 10px;
-  flex: 1 1 70%
-`
-
 const CardBlock = styled.div`
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
 `;
 
 const FilterBlock = styled.div`

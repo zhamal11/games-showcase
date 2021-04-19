@@ -20,17 +20,23 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    width: 100%;
+  }
 `;
 
 const Content = styled.div`
   padding: 10px;
-  flex: 1 1 70%
+  flex: 0 0 70%;
+  @media (max-width: 767px) {
+    flex: 0 0 100%;
+
+  }
+
 `
 
 function App() {
-
-
-  
   return (
     <Wrapper>
       <Header/>

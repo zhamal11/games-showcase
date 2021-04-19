@@ -7,11 +7,25 @@ const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+  }
+  
 `;
 
 const HeaderLogo = styled.div`
   color: green;
   flex: 0 0 300px;
+
+  @media (max-width: 767px) {
+    flex: 0 0 50px
+
+  }
+
 `
 
 const HeaderSearchBlock = styled.div`
@@ -19,6 +33,11 @@ const HeaderSearchBlock = styled.div`
   justify-content: center;
   position: relative;
   flex: 0 0 300px;
+
+  @media (max-width: 767px) {
+    flex: 0 0 50px
+
+  }
 `;
 
 const SearchList = styled.div`
