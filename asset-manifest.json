@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/games-showcase/static/css/main.e09a45f8.chunk.css",
+    "main.js": "/games-showcase/static/js/main.31104cbc.chunk.js",
+    "main.js.map": "/games-showcase/static/js/main.31104cbc.chunk.js.map",
+    "runtime-main.js": "/games-showcase/static/js/runtime-main.c8f49cec.js",
+    "runtime-main.js.map": "/games-showcase/static/js/runtime-main.c8f49cec.js.map",
+    "static/js/2.d0eb01ad.chunk.js": "/games-showcase/static/js/2.d0eb01ad.chunk.js",
+    "static/js/2.d0eb01ad.chunk.js.map": "/games-showcase/static/js/2.d0eb01ad.chunk.js.map",
+    "static/js/3.040d51cc.chunk.js": "/games-showcase/static/js/3.040d51cc.chunk.js",
+    "static/js/3.040d51cc.chunk.js.map": "/games-showcase/static/js/3.040d51cc.chunk.js.map",
+    "index.html": "/games-showcase/index.html",
+    "static/css/main.e09a45f8.chunk.css.map": "/games-showcase/static/css/main.e09a45f8.chunk.css.map",
+    "static/js/2.d0eb01ad.chunk.js.LICENSE.txt": "/games-showcase/static/js/2.d0eb01ad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8f49cec.js",
+    "static/js/2.d0eb01ad.chunk.js",
+    "static/css/main.e09a45f8.chunk.css",
+    "static/js/main.31104cbc.chunk.js"
+  ]
+}
